@@ -10,11 +10,131 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Volume
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Books - Add Volume
+  x-api-slug: mylibrarybookshelvesshelfaddvolume-post
+  description: Adds a volume to a bookshelf.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/mylibrarybookshelvesshelfaddvolume-post-openapi.md
+- name: Books - Clear Volumes
+  x-api-slug: mylibrarybookshelvesshelfclearvolumes-post
+  description: Clears all volumes from a bookshelf.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/mylibrarybookshelvesshelfclearvolumes-post-openapi.md
+- name: Books - Move Voume
+  x-api-slug: mylibrarybookshelvesshelfmovevolume-post
+  description: Moves a volume within a bookshelf.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/mylibrarybookshelvesshelfmovevolume-post-openapi.md
+- name: Books - Remove Volume
+  x-api-slug: mylibrarybookshelvesshelfremovevolume-post
+  description: Removes a volume from a bookshelf.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/mylibrarybookshelvesshelfremovevolume-post-openapi.md
+- name: Books - Get Volume
+  x-api-slug: mylibrarybookshelvesshelfvolumes-get
+  description: Gets volume information for volumes on a bookshelf.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/mylibrarybookshelvesshelfvolumes-get-openapi.md
+- name: Books - Get Public Volumes
+  x-api-slug: usersuseridbookshelvesshelfvolumes-get
+  description: Retrieves volumes in a specific bookshelf for the specified user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/usersuseridbookshelvesshelfvolumes-get-openapi.md
+- name: Books - Get Volume
+  x-api-slug: volumesvolumeid-get
+  description: Gets volume information for a single volume.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/volumesvolumeid-get-openapi.md
+- name: Books - List Volumes
+  x-api-slug: onboardinglistcategoryvolumes-get
+  description: List available volumes under categories for onboarding experience.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/onboardinglistcategoryvolumes-get-openapi.md
+- name: Books - List Volumes
+  x-api-slug: onboardinglistcategoryvolumes-get
+  description: List available volumes under categories for onboarding experience.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/onboardinglistcategoryvolumes-get-openapi.md
+- name: Books - List Volumes
+  x-api-slug: onboardinglistcategoryvolumes-get
+  description: List available volumes under categories for onboarding experience.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 4.28.26 PM.png
+  humanURL: https://developers.google.com/books/
+  baseURL: ://www.googleapis.com//books/v1
+  tags: Books, Google APIs, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volume/master/_listings/google-books/onboardinglistcategoryvolumes-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.biquery.api.gallery.streamdata.io
